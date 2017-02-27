@@ -1,0 +1,38 @@
+* {
+    margin: 15px 0px 15px 0px;
+}
+body {
+    line-height: 20px;
+    background-color: #f2f2f2;
+    width: 500px;
+    margin: 0 auto;
+    font-family: "Myriad Pro";
+}
+h1 {
+    width: 600px;
+    color: black;
+    margin-left: 7px;
+}
+div {
+    border-top: solid gray;
+    border-width: 2px;
+}
+img {
+    margin-left: 15%;
+    margin-bottom: 0px;
+    width: 300px;
+}
+
+.profession {
+    color: #5e5d5c;
+    margin-left: 0;
+}
+p {
+    font-size: 14px;
+    color: 3a3a3a;
+    margin-left: 40px;
+}
+
+ul {
+    -webkit-padding-start: 40px;
+}
