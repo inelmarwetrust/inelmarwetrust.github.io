@@ -1,38 +1,48 @@
 * {
-    margin: 15px 0px 15px 0px;
+  margin: 15px 0px 15px 0px;
+  /* Разрешается ли так указывать отступы? Применять на "*" и на ".wrapper" (см. следующий пункт) */
 }
+
+.wrapper {
+  border-top: 0px; /* Убирает полосу сверху, применяемую на все div */
+  font-family: "Myriad Pro";
+  line-height: 20px;
+  margin: 0 auto;
+  width: 500px;
+}
+
 body {
-    line-height: 20px;
     background-color: #f2f2f2;
-    width: 500px;
-    margin: 0 auto;
-    font-family: "Myriad Pro";
 }
+
 h1 {
-    width: 600px;
     color: black;
-    margin-left: 7px;
+    text-align: center;
 }
+
 div {
     border-top: solid gray;
     border-width: 2px;
 }
+
 img {
-    margin-left: 15%;
-    margin-bottom: 0px;
+    display: block;
+    margin: 0 auto;
     width: 300px;
 }
 
 .profession {
     color: #5e5d5c;
-    margin-left: 0;
+    /*margin-left: 0;*/
 }
+
 p {
     font-size: 14px;
-    color: 3a3a3a;
+    color: #3a3a3a;
     margin-left: 40px;
 }
 
-ul {
-    -webkit-padding-start: 40px;
+a {
+  margin-left: 40px;
+  font-style: italic;
 }
