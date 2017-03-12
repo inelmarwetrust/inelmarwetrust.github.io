@@ -7,27 +7,6 @@
   padding: 0;
 }
 
-.container {
-  background-color: #fff;
-  border-left: 2px solid #dbdbdb;
-  border-right: 2px solid #dbdbdb;
-  margin: 0px 150px;
-  padding: 40px;
-  box-shadow: 0 5px 5px rgba(0,0,0,.3);
-}
-
-img {
-  display: block;
-  width: 150px;
-}
-
-.wrapper {
-  font-size: 14px;
-  font-family: "Open Sans";
-  color: grey;
-  background-color: #f9f9f9;
-}
-
 a {
   text-decoration: none;
   color: white;
@@ -42,8 +21,36 @@ li
   width: 150px;
 }
 
+.wrapper {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: grey;
+  background-color: #f9f9f9;
+}
+.container {
+  background-color: #fff;
+  border-left: 2px solid #dbdbdb;
+  border-right: 2px solid #dbdbdb;
+  margin: 0px 150px;
+  padding: 40px;
+  box-shadow: 0 5px 5px rgba(0,0,0,.3);
+}
+
+/*START BLOCK HEADER*/
+
 .header {
   margin-bottom: 40px;
+}
+
+.header ul {
+  margin-top: 40px;
+  background-color: #4e4d4d;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+}
+
+.header ul li {
+  border-left: 1px solid #4e4d4d;
+  border-right: 1px solid #4e4d4d;
 }
 
 .header li a {
@@ -52,19 +59,14 @@ li
   width: inherit;
 }
 
-.topmenu {
-  margin-top: 40px;
-  background-color: #4e4d4d;
-  text-shadow: 1px 1px 1px rgba(0,0,0,.5);
-}
-
-.topmenu li:hover {
+.header ul li:hover {
   background-color: #444444;
-  border-left: 1px solid #838383;
-  border-right: 1px solid #838383;
+  border-color: #838383;
 }
 
+/*END BLOCK HEADER*/
 
+/*START BLOCK CONTENT*/
 .sidebar {
   float: left;
   width: 240px;
@@ -84,47 +86,67 @@ li
 }
 .sidebar li a {
   color: #838383;
-  margin-left: 25px;
+  display: inline-block;
+  padding-left: 25px;
+  width: inherit;
+  line-height: 40px;
+  /*outline: 1px s olid red;*/
 }
 
 .sidebar li a:hover {
-  margin-left: 35px;
+  margin-left: 10px;
 }
 
 .sidebar li:hover {
   background-color: #f9f9f9;
 }
       /*Начало текстового контента*/
-.text img {
+.article img {
   display: block;
   margin-left: 290px;
   width: 678px;
   border-top: 1px solid grey;
 }
 
-.text p {
+.article p {
   width: 650px;
   margin: 40px 0 0 315px;
   line-height: 20px;
 }
 
-      /*Начало футера*/
+/*END BLOCK CONTENT*/
+
+/*START BLOCK FOOTER*/
 .footer {
-    /*float: left;*/
     font-size: 13px;
     margin-top: 40px;
     background-color: #e1e1e1;
-    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+    color: #2c2c2c;
+    overflow: auto;
 }
 
 .footer a {
   color: #2c2c2c;
+
 }
 
 .footer a:hover {
   text-decoration: underline;
 }
 
-.copyright {
-  float: right;
+.bottom-menu {
+  display: inline-block;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+  float: left;
 }
+.copyright {
+display: inline-block;
+float: right;
+line-height: 40px;
+margin-right: 25px;
+}
+
+.footer li {
+  width: 140px;
+}
+/*END BLOCK FOOTER*/
